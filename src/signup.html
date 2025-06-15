@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Template básico</title>
+    <!-- Fonte Rawline-->
+    <link rel="stylesheet" href="https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css"/>
+    <!-- Fonte Raleway-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&amp;display=swap"/>
+    <!-- Design System de Governo-->
+<<<<<<< HEAD
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core/dist/core.min.css" />
+=======
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core/dist/core.min.css" />
+>>>>>>> dd2a6f51bf47c43c1f1280d72115aec7879d7c59
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
+</head>
+<body>
+<div class="template-base">
+    <nav class="br-skiplink" role="menubar"><a class="br-item" href="#main-content" role="menuitem" accesskey="1">Ir para o conteúdo <span aria-hidden="true">(1/4)</span> <span aria-hidden="true" class="br-tag text ml-1">1</span></a><a class="br-item" href="#header-navigation" role="menuitem" accesskey="2">Ir para o menu <span aria-hidden="true">(2/4)</span> <span aria-hidden="true" class="br-tag text ml-1">2</span></a><a class="br-item" href="#main-searchbox" role="menuitem" accesskey="3">Ir para a busca <span aria-hidden="true">(3/4)</span> <span aria-hidden="true" class="br-tag text ml-1">3</span></a><a class="br-item" href="#footer" role="menuitem" accesskey="4">Ir para o rodapé <span aria-hidden="true">(4/4)</span> <span aria-hidden="true" class="br-tag text ml-1">4</span></a>
+    </nav>
+    <header class="br-header mb-4" id="header" data-sticky="data-sticky">
+        <div class="container-lg">
+            <div class="header-top">
+                <div class="header-logo"><img class="brasaoImg" src="" alt="logo"/><span class="br-divider vertical"></span>
+                    <div class="header-sign">
+                        <a href="https://pmt.pi.gov.br/" style="color: #1351B4; text-decoration: none; font-size: 20px;" target="_blank">Prefeitura de Teresina</a>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <div class="header-links dropdown">
+                        <button class="br-button circle small" type="button" data-toggle="dropdown" aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
+                        </button>
+                        <div class="br-list">
+                            <div class="header">
+                                <div class="title">Acesso Rápido</div>
+                            </div><a class="br-item" href="https://pmt.pi.gov.br/secretarios/">Órgãos da Prefeitura</a><a class="br-item" href="https://pmt.pi.gov.br/teresinensedigital/">Acesso à Informação</a><a class="br-item" href="http://legislacao.teresina.pi.gov.br/legislacao.php">Legislação</a><a class="br-item" href="http://ouvidoria.teresina.pi.gov.br/">Contato</a>
+                        </div>
+                    </div><span class="br-divider vertical mx-half mx-sm-1"></span>
+                    <div class="header-functions dropdown">
+                        <button class="br-button circle small" type="button" data-toggle="dropdown" aria-label="Abrir Funcionalidades do Sistema"><i class="fas fa-th" aria-hidden="true"></i>
+                        </button>
+                        <div class="br-list">
+                            <div class="header">
+                                <div class="title">Funcionalidades do Sistema</div>
+                            </div>
+                            <div class="br-item">
+                                <button class="br-button circle small" type="button" aria-label="Funcionalidade 1"><i class="fas fa-chart-bar" aria-hidden="true"></i><span class="text">Funcionalidade 1</span>
+                                </button>
+                            </div>
+                            <div class="br-item">
+                                <button class="br-button circle small" type="button" aria-label="Funcionalidade 2"><i class="fas fa-headset" aria-hidden="true"></i><span class="text">Funcionalidade 2</span>
+                                </button>
+                            </div>
+                            <div class="br-item">
+                                <button class="br-button circle small" type="button" aria-label="Funcionalidade 3"><i class="fas fa-comment" aria-hidden="true"></i><span class="text">Funcionalidade 3</span>
+                                </button>
+                            </div>
+                            <div class="br-item">
+                                <button class="br-button circle small" type="button" aria-label="Funcionalidade 4"><i class="fas fa-adjust" aria-hidden="true"></i><span class="text">Funcionalidade 4</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-search-trigger">
+                        <button class="br-button circle" type="button" aria-label="Abrir Busca" data-toggle="search" data-target=".header-search"><i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="header-login">
+                        <div class="header-sign-in">
+                            <a class="br-sign-in small" type="button" data-trigger="login" href="login.html"><i class="fas fa-user" aria-hidden="true"></i><span class="d-sm-inline">Entrar</span>
+                            </a>
+                        </div>
+                        <div class="header-avatar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="header-menu">
+                    <div class="header-menu-trigger" id="header-navigation">
+                        <button class="br-button small circle" type="button" aria-label="Menu" data-toggle="menu" data-target="#main-navigation" id="navigation"><i class="fas fa-bars" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <div class="header-info">
+                        <div class="header-title">Plantão Funerário</div>
+                    </div>
+                </div>
+                <div class="header-search" id="main-searchbox">
+                    <div class="br-input has-icon">
+                        <label for="searchbox">Texto da pesquisa</label>
+                        <input id="searchbox" type="text" placeholder="O que você procura?"/>
+                        <button class="br-button circle small" type="button" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                    <button class="br-button circle search-close ml-1" type="button" aria-label="Fechar Busca" data-dismiss="search"><i class="fas fa-times" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="d-flex flex-fill mb-5" id="main">
+        <div class="container-lg d-flex">
+            <div class="row">
+                <div class="br-menu" id="main-navigation">
+                    <div class="menu-container">
+                        <div class="menu-panel">
+                            <div class="menu-header">
+                                <div class="menu-title">
+                                    <img class="brasaoImg" src="" alt="Imagem ilustrativa"/>
+                                    <span style="font-size: 20px;">Opções</span>
+                                </div>
+                                <div class="menu-close">
+                                    <button class="br-button circle" type="button" aria-label="Fechar o menu" data-dismiss="menu"><i class="fas fa-times" aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <nav class="menu-body" role="tree">
+                                <div class="menu-folder"><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span class="content">Ações</span></a>
+                                    <ul>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-heart" aria-hidden="true"></i></span><span class="content">sdfasfsdf</span></a></li>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-address-book" aria-hidden="true"></i></span><span class="content">Serviços</span></a>
+                                            <ul>
+                                                <li><a class="menu-item" href="https://sei.pmt.pi.gov.br/sei/modulos/pesquisa/md_pesq_processo_pesquisar.php?acao_externa=protocolo_pesquisar&acao_origem_externa=protocolo_pesquisar&id_orgao_acesso_externo=0" role="treeitem"><span class="icon"><i class="fas fa-book" aria-hidden="true"></i></span><span class="content">Consulta de Processo</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-book" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-tree" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-tree" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="menu-item" href="javascript: void(0)"><span class="icon"><i class="fas fa-archive" aria-hidden="true"></i></span><span class="content">Camada 2</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-folder"><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span class="content">Institucional</span></a>
+                                    <ul>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-heart" aria-hidden="true"></i></span><span class="content">Camada 2</span></a></li>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-address-book" aria-hidden="true"></i></span><span class="content">Camada 2</span></a>
+                                            <ul>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-book" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-tree" aria-hidden="true"></i></span><span class="content">Camada 3</span></a>
+                                                    <ul>
+                                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="content">Camada 4</span></a></li>
+                                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="content">Camada 4</span></a></li>
+                                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="content">Camada 4</span></a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="menu-item" href="javascript: void(0)"><span class="icon"><i class="fas fa-moon" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="menu-item" href="javascript: void(0)"><span class="icon"><i class="fas fa-archive" aria-hidden="true"></i></span><span class="content">Camada 2</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="menu-folder"><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span class="content">Transparência</span></a>
+                                    <ul>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-heart" aria-hidden="true"></i></span><span class="content">Camada 2</span></a></li>
+                                        <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-address-book" aria-hidden="true"></i></span><span class="content">Camada 2</span></a>
+                                            <ul>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-book" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-tree" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                                <li><a class="menu-item" href="javascript: void(0)" role="treeitem"><span class="icon"><i class="fas fa-tree" aria-hidden="true"></i></span><span class="content">Camada 3</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="menu-item" href="javascript: void(0)"><span class="icon"><i class="fas fa-archive" aria-hidden="true"></i></span><span class="content">Camada 2</span></a></li>
+                                    </ul>
+                                </div>
+                                <a class="menu-item divider" href="FAQ.html" role="treeitem"><span class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span class="content">Sobre</span></a>
+                                <a class="menu-item divider" href="https://prodater.pmt.pi.gov.br/sei/" role="treeitem"><span class="icon"><i class="fas fa-bell" aria-hidden="true"></i></span><span class="content">Acesso ao SEI!</span></a>
+                            </nav>
+                            <div class="menu-footer">
+                                <div class="menu-links"><a href="javascript: void(0)"><span class="mr-1">Link externo 1</span><i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a><a href="javascript: void(0)"><span class="mr-1">Link externo 2</span><i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a></div>
+                                <div class="social-network">
+                                    <div class="social-network-title">Redes Sociais</div>
+                                    <div class="d-flex"><a class="br-button circle" href="javascript: void(0)" aria-label="Compartilhar por Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a><a class="br-button circle" href="javascript: void(0)" aria-label="Compartilhar por Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a><a class="br-button circle" href="javascript: void(0)" aria-label="Compartilhar por Linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a><a class="br-button circle" href="javascript: void(0)" aria-label="Compartilhar por Whatsapp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></div>
+                                </div>
+                                <div class="menu-info">
+                                    <div class="text-center text-down-01">Todo o conteúdo deste site está publicado sob a licença <strong>Creative Commons Atribuição-SemDerivações 3.0</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-scrim" data-dismiss="menu" tabindex="0"></div>
+                    </div>
+                </div>
+                <div class="col mb-5">
+                    <nav class="br-breadcrumb">
+                        <ol class="crumb-list" role="list">
+                            <li class="crumb home"><a class="br-button circle" href="home.html"><span class="sr-only">Página inicial</span><i class="fas fa-home"></i></a></li>
+                            <li class="crumb"><i class="icon fas fa-chevron-right"></i>Sign-up</li>
+                        </ol>
+                    </nav>
+                    <div class="main-content pl-sm-3 mt-4" id="main-content">
+                        <h1>Sign-up</h1>
+                        <p>Parágrafo de exemplo <a href="">link de exemplo</a>.</p>
+
+                        <div class="wizard-sample-2">
+                            <div class="br-wizard" collapsed="collapsed" step="1">
+                                <div class="wizard-progress" role="tablist">
+                                    <button class="wizard-progress-btn" type="button" aria-labelledby="info1" role="tab" aria-controls="tab1" title="Dados Pessoais"><span class="info" id="info1">Dados Pessoais</span></button>
+                                    <button class="wizard-progress-btn" type="button" aria-labelledby="info2" role="tab" aria-controls="tab2" title="Validar Dados" active="active"><span class="info" id="info2">Validar Dados</span></button>
+                                    <button class="wizard-progress-btn" type="button" aria-labelledby="info3" role="tab" aria-controls="tab3" title="Habilitar Cadastro" active="active"><span class="info" id="info3">Habilitar Cadastro</span></button>
+                                    <button class="wizard-progress-btn" type="button" aria-labelledby="info4" role="tab" aria-controls="tab4" title="Cadastrar Senha" active="active"><span class="info" id="info4">Cadastrar Senha</span></button>
+                                    <button class="wizard-progress-btn" type="button" aria-labelledby="info5" role="tab" aria-controls="tab5" title="Finalizar Cadastro" disabled="disabled"><span class="info">Finalizar</span></button>
+                                </div>
+                                <div class="wizard-form">
+                                    <div class="wizard-panel" active="active" role="tabpanel" id="tab1">
+                                        <div class="wizard-panel-content" tabindex="0">
+                                            <div class="h3">Dados Pessoais</div>
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    <fieldset>
+                                                        <div class="row">
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="causa-morte">Nome</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="Nome_signup" type="text" placeholder="Insira a seu nome completo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-datetimepicker" data-mode="single" data-type="text">
+                                                                    <div class="br-input has-icon">
+                                                                        <label for="simples-input">Data de Nascimento</label>
+                                                                        <input id="Data_de_nascimento_signup" type="text" placeholder="exemplo: 09/06/2025" data-input="data-input"/>
+                                                                        <button class="br-button circle small" type="button" aria-label="Abrir Timepicker" data-toggle="data-toggle" id="simples-input-btn" tabindex="-1" aria-hidden="true"><i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="local-obito">CPF</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="CPF_signup" type="text" placeholder="Insira seu CPF"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-select">
+                                                                    <div class="br-input">
+                                                                        <label for="select-simple-checked">Sexo</label>
+                                                                        <input id="select-simple-checked" type="text" placeholder="Selecione o item"/>
+                                                                        <button class="br-button" type="button" aria-label="Exibir lista" tabindex="-1" data-trigger="data-trigger"><i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                    <div class="br-list" tabindex="0">
+                                                                        <div class="br-item" tabindex="-1">
+                                                                            <div class="br-radio">
+                                                                                <input id="rbs0" type="radio" name="estados-checked" value="rbs0"/>
+                                                                                <label for="rbs0">Masculino</label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="br-item" tabindex="-1">
+                                                                            <div class="br-radio">
+                                                                                <input id="rbs1" type="radio" name="estados-checked" value="rbs1"/>
+                                                                                <label for="rbs1">Feminino</label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <br>
+
+
+
+
+
+
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wizard-panel-btn">
+                                            <button class="br-button wizard-btn-canc" type="button">Cancelar</button>
+                                            <button class="br-button primary wizard-btn-next" type="button" aria-description="Passo 2 de 5 Validar Dados">Avançar</button>
+                                        </div>
+                                    </div>
+                                    <div class="wizard-panel" role="tabpanel" id="tab2">
+                                        <div class="wizard-panel-content" tabindex="0">
+                                            <div class="h3">Validar Dados</div>
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    <fieldset>
+                                                        <div class="row">
+
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="causa-morte">Email</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="causa-morte" type="text" placeholder="Insira seu email"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="local-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="local-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="declaracao-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="declaracao-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="empresa-funeraria">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="empresa-funeraria" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="cemiterio">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="cemiterio" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wizard-panel-btn">
+                                            <button class="br-button wizard-btn-canc" type="button">Cancelar
+                                            </button>
+                                            <button class="br-button primary wizard-btn-next" type="button" aria-description="Passo 3 de 5 Habilitar Cadastro"> Avançar
+                                            </button>
+                                            <button class="br-button secondary wizard-btn-prev" type="button" aria-description="Passo 1 de 5 Dados Pessoais">Voltar
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="wizard-panel" role="tabpanel" id="tab3">
+                                        <div class="wizard-panel-content" tabindex="0">
+                                            <div class="h3">Habilitar Cadastro</div>
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    <fieldset>
+                                                        <div class="row">
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="causa-morte">Número SEI</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="causa-morte" type="text" placeholder="Insira seu número SEI"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="local-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="local-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="declaracao-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="declaracao-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="empresa-funeraria">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="empresa-funeraria" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="cemiterio">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="cemiterio" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="bloco">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="bloco" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wizard-panel-btn">
+                                            <button class="br-button wizard-btn-canc" type="button">Cancelar
+                                            </button>
+                                            <button class="br-button primary wizard-btn-next" type="button" aria-description="Passo 4 de 5 Cadastrar Senha"> Avançar
+                                            </button>
+                                            <button class="br-button secondary wizard-btn-prev" type="button" aria-description="Passo 2 de 5 Validar Dados">Voltar
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="wizard-panel" role="tabpanel" id="tab4">
+                                        <div class="wizard-panel-content" tabindex="0">
+                                            <div class="h3">Cadastrar Senha</div>
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    <fieldset>
+                                                        <div class="row">
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="causa-morte">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="causa-morte" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="local-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="local-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="declaracao-obito">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="declaracao-obito" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-lg-4">
+                                                                <div class="br-input">
+                                                                    <label for="empresa-funeraria">Campo</label>
+                                                                    <div class="input-group">
+                                                                        <div class="input-icon"><i class="fas fa-user-tie" aria-hidden="true"></i>
+                                                                        </div>
+                                                                        <input id="empresa-funeraria" type="text" placeholder="Insira Campo"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <
+                                                        </div>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wizard-panel-btn">
+                                            <button class="br-button wizard-btn-canc" type="button">Cancelar
+                                            </button>
+                                            <button class="br-button primary wizard-btn-next" type="button" aria-description="Passo 5 de 5 Finalizar"> Avançar
+                                            </button>
+                                            <button class="br-button secondary wizard-btn-prev" type="button" aria-description="Passo 3 de 5 Habilitar Cadastro">Voltar
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="wizard-panel" role="tabpanel" id="tab5">
+                                        <div class="wizard-panel-content" tabindex="0">
+                                            <div class="h3">Contrato de Aceite de Cadastro - Termos e Condições</div>
+                                            <div class="text">
+                                                <b>IMPORTANTE: LEIA COM ATENÇÃO ANTES DE FINALIZAR SEU CADASTRO.</b>
+                                                <br>
+                                                Este Contrato de Aceite de Cadastro ("Contrato") estabelece os termos e condições aplicáveis entre você ("Usuário") e o PlantãoDigital para o uso da plataforma e seus serviços.
+                                                <br>
+                                                <b>1. ACEITAÇÃO DOS TERMOS</b>
+                                                Ao clicar em "<b>Concluir</b>", você declara que leu, compreendeu e concorda integralmente com este Contrato. Caso não concorde com qualquer cláusula, clique em "**Cancelar**" e interrompa o processo de cadastro.
+                                                <br>
+                                                <b>2. CADASTRO E VERACIDADE DAS INFORMAÇÕES</b>
+                                                Você se compromete a fornecer informações verdadeiras, completas e atualizadas durante o processo de registro. A falsidade ou omissão de informações poderá resultar na suspensão ou cancelamento do acesso.
+                                                <br>
+                                                <b>3. PROTEÇÃO DE DADOS</b>
+                                                Seus dados serão tratados de acordo com a legislação vigente de proteção de dados pessoais e com a nossa Política de Privacidade. Ao aceitar este Contrato, você autoriza o tratamento de seus dados para as finalidades previstas nos serviços da plataforma.
+                                                <br>
+                                                <b>4. USO DA CONTA</b>
+                                                O Usuário é responsável por manter a confidencialidade de suas credenciais de acesso. Qualquer atividade realizada com seu login será considerada de sua responsabilidade.
+                                                <br>
+                                                <b>5. RESPONSABILIDADES DO USUÁRIO</b>
+                                                É vedado ao Usuário:
+                                                <br>
+                                                * Utilizar a plataforma para fins ilícitos;
+                                                * Compartilhar sua conta com terceiros;
+                                                * Violar normas de segurança ou tentar acessar dados de outros usuários.
+                                                <br>
+                                                <b>6. RESCISÃO</b>
+                                                O presente Contrato poderá ser rescindido a qualquer momento por ambas as partes. A rescisão por parte do Usuário poderá ocorrer mediante solicitação de exclusão da conta. A Plataforma se reserva o direito de suspender ou excluir a conta em caso de descumprimento dos termos aqui definidos.
+                                                <br>
+                                                <b>7. MODIFICAÇÕES</b>
+                                                A \[Nome da Plataforma] poderá atualizar este Contrato a qualquer momento. O uso continuado da plataforma após as alterações implica sua aceitação aos novos termos.
+                                                <br>
+                                                <b>8. LEGISLAÇÃO APLICÁVEL</b>
+                                                Este contrato é regido pelas leis do \[país ou estado], ficando eleito o foro da comarca de \[cidade], com renúncia a qualquer outro, por mais privilegiado que seja, para dirimir eventuais dúvidas decorrentes deste instrumento.
+                                                <br>
+                                                ---
+
+                                                <b>Se você leu, compreendeu e concorda com os termos acima, clique em "Concluir" para finalizar o cadastro.</b>
+
+                                                ---
+                                            </div>
+                                        </div>
+                                        <div class="wizard-panel-btn">
+                                            <button class="br-button wizard-btn-canc" type="button">Cancelar
+                                            </button>
+                                            <a class="br-button primary wizard-btn" type="button" href="logged.html">Concluir
+                                            </a>
+                                            <button class="br-button secondary wizard-btn-prev" type="button">Voltar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="br-footer pt-3" id="footer">
+        <div class="container-lg">
+            <div class="info">
+                <div class="text-down-01 text-medium pb-3">Todo o conteúdo deste site está publicado sob a licença&nbsp;<strong><a href="https://creativecommons.org/licenses/by-nd/3.0/deed.en">Creative Commons Atribuição-SemDerivações 3.0 Não Adaptada</a>.</strong></div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script defer src="https://cdn.jsdelivr.net/npm/@govbr-ds/core/dist/core.min.js"></script>
+<script type="module">
+    import { loadImageAsBase64 } from '../GerarArquivos.js';
+
+    // URL da imagem
+    const PMTbrasaoUrl = "https://i.imgur.com/HaGCfsJ.png";
+
+    // Carregar a imagem ao iniciar a página
+    window.onload = async () => {
+        const base64String = await loadImageAsBase64(PMTbrasaoUrl);
+        if (base64String) {
+            // Selecionar todos os elementos com a classe brasaoImg
+            const images = document.getElementsByClassName('brasaoImg');
+            for (let img of images) {
+                img.src = base64String;
+            }
+        }
+    };
+</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+:root {
+    --button-radius: 100em;
+    --button-xsmall: 24px;
+    --button-small: 32px;
+    --button-medium: 40px;
+    --button-large: 48px;
+    --button-size: var(--button-medium);
+    --font-size-scale-up-01: 16px;
+    --spacing-scale-3x: 12px;
+    --interactive: #007bff;
+    --background-light: #f8f9fa;
+}
+
+.btn {
+    --button-size: var(--button-medium);
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid var(--interactive);
+    border-radius: var(--button-radius);
+    color: var(--interactive);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: var(--font-size-scale-up-01);
+    font-weight: 600; /* Aproximado de semi-bold */
+    height: var(--button-size);
+    justify-content: center;
+    margin-right: var(--spacing-scale-3x);
+    overflow: hidden;
+    padding: 0 var(--spacing-scale-3x);
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: var(--interactive);
+    color: white;
+    border-color: var(--interactive);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: var(--background-light);
+    border-color: var(--interactive);
+}
+
+.btn-secondary:hover {
+    background-color: #e7f1ff;
+}
+
+
